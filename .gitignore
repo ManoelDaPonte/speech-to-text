@@ -1,8 +1,3 @@
 
-data/data_vincent_artaud/.DS_Store
-*.wav
-*.mov
-*.docx
-*.srt
-data/.DS_Store
-.DS_Store
+data/*
+src/dev.ipynb
