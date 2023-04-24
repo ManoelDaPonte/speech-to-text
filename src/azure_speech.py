@@ -31,5 +31,5 @@ if __name__ == "__main__":
         print(f"Error: {audio_file} is not a valid file")
         sys.exit(1)
     
-    exec_speech_service(set_speech_service(), audio_file)
-    
+    result = exec_speech_service(set_speech_service(), audio_file)
+    print(result.text)
